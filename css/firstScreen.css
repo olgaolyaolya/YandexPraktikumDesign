@@ -4,12 +4,12 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	padding: 16px;
+	padding: 18px;
 	z-index: 100; 
 	position: fixed;
 	width: 375px;
 	height: 112px;
-	background: #252A2E;
+	background: #000000;
 }
 
 .first-screen-body {
@@ -25,7 +25,7 @@
 .albums-list {
 	padding-bottom: 22px;
 	margin-bottom: 27px;
-	border-bottom: 1px solid #535353;
+	border-bottom: .5px solid #535353;
 	margin-left: 5px;
 }
 
@@ -107,13 +107,13 @@
 	width: 200px;
 	background: rgba(51, 47, 34, 0.4);
 	-webkit-backdrop-filter: blur(15px);
-	backdrop-filter: blur(40px);
+	backdrop-filter: blur(35px);
 	color:#FFFFFF;
 	font-family: 'Jost';
 	font-weight: 400;
 	font-style: normal;
 	display: flex;
-	align-items: center;
+	align-items: right;
 }
 
 .banner-cover-pod h1 {
@@ -259,7 +259,7 @@ input::-moz-placeholder {
 	flex-direction: column;
 	align-items: center;
 	position: fixed;
-	transition: 300ms ease-in-out;
+	transition: 300ms ease-out;
 	box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 	margin-bottom: calc(100vh - 688px);
 }
